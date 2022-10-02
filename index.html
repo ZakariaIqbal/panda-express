@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title> Panda-Express </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- Overdrive Css -->
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header class="container"> 
@@ -23,13 +25,13 @@
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Shoes</a>
+                    <a class="nav-link" href="#Shoes">Shoes</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Backpack</a>
+                    <a class="nav-link" href="#Backpack">Backpack</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link ">Subscribe</a>
+                    <a class="nav-link "href="#Subscribe">Subscribe</a>
                   </li>
                 </ul>
               </div>
@@ -39,7 +41,7 @@
         <section>
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active bg-info border rounded-5">
+              <div class="carousel-item active b border rounded-5 panda-carousel ">
                <div class="row align-items-center p-5">
                 <div class="col-lg-7  "> 
                   <h1>Cool Dude Headphone</h1>
@@ -50,7 +52,7 @@
                 <div class="col-lg-5"> <img src="./images/banner-images/headphone.png" class="d-block img-fluid" alt="..."></div>
                </div>
               </div>
-              <div class="carousel-item active bg-info border rounded-5">
+              <div class="carousel-item active  border rounded-5 panda-carousel">
                <div class="row align-items-center p-5">
                 <div class="col-lg-7  "> 
                   <h1>Mega LCD TV For Sports</h1>
@@ -61,7 +63,7 @@
                 <div class="col-lg-5"> <img src="./images/banner-images/tv.png" class="d-block img-fluid" alt="..."></div>
                </div>
               </div>
-              <div class="carousel-item active bg-info border rounded-5">
+              <div class="carousel-item active panda-carousel border rounded-5">
                <div class="row align-items-center p-5">
                 <div class="col-lg-7  "> 
                   <h1>Xbox For Gaming </h1>
@@ -93,21 +95,21 @@
         <div class="row gy-5">
             <!--------- categories Section  -------->
           <div class="col-sm-12 col-md-6 col-lg-4 ">
-           <div class="border bg-primary border rounded-4 d-flex justify-content-around align-items-center">
+           <div class="border bg-primary border rounded-4 d-flex justify-content-around align-items-center cat-width">
             <h1>Watch</h1>
             <img src="./images/categories/watch.png"  alt="">
            </div>
           </div>
             <!--------- categories Section  -------->
           <div class="col-sm-12 col-md-6 col-lg-4 ">
-           <div class="border bg-success border rounded-4 d-flex justify-content-around align-items-center">
+           <div class="border bg-success border rounded-4 d-flex justify-content-around align-items-center cat-width">
             <h1>Bag</h1>
             <img src="./images/categories/bag.png" alt="">
            </div>
           </div>
             <!--------- categories Section  -------->
           <div class="col-sm-12 col-md-6 col-lg-4 ">
-           <div class="border bg-danger border rounded-4 d-flex justify-content-around align-items-center">
+           <div class="border bg-danger border rounded-4 d-flex justify-content-around align-items-center cat-width">
             <h1>Shoes</h1>
             <img src="./images/categories/shoes.png" alt="">
            </div>
@@ -123,7 +125,7 @@
     <!-- 
       Shoe Section Start 
     -->
-     <section class=" container my-5">
+     <section class=" container my-5" id="Shoes">
       <h2>Shoes</h2>
     <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-4 ">
       <!--------Card----------->
@@ -172,8 +174,8 @@
       -->
 
      <!---------Bags Section Start ---------->
-     <section class=" container my-5">
-      <h2>Bagpack</h2>
+     <section class=" container my-5" id="Backpack">
+      <h2>Backpack</h2>
     <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-4 ">
       <!--------Card----------->
       <div class="col">
@@ -230,7 +232,7 @@
      <!-- 
         Subscribe Start 
     -->
-    <section style="height: 350px;" class="container my-5 d-flex justify-content-center align-items-center bg-info rounded-5 ">
+    <section style="height: 350px;" class="container my-5 d-flex justify-content-center align-items-center bg-info rounded-5 " id=" Subscribe">
     <div>
       <h2>Let's Stay In Touch </h2>
       <p>Get updates on sales , specials and more </p>  
@@ -242,7 +244,7 @@
 
     </section>
    </main>
-   <footer class="container  text-center">
+   <footer class="container  text-center" id="Subscribe">
    <p> ©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.
    </p>
 
